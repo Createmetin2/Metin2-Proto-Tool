@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ProtoTool.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{1935754d-740e-4ee7-aa6c-dd79187cbea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{3c09ffd4-36ca-4afc-b65c-78582b6f26f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{65666937-df7e-4e62-8366-898a01441044}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProtoTool.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Read.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\resource\resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\resource\item_names.txt">
+      <Filter>Resource</Filter>
+    </Text>
+    <Text Include="..\resource\item_proto.txt">
+      <Filter>Resource</Filter>
+    </Text>
+    <Text Include="..\resource\mob_names.txt">
+      <Filter>Resource</Filter>
+    </Text>
+    <Text Include="..\resource\mob_proto.txt">
+      <Filter>Resource</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resource\Settings.json">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resource\metin2.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\resource\ProtoTool.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
